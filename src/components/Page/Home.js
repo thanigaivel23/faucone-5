@@ -29,7 +29,6 @@ const Home = () => {
 
     return (
         <>
-            {/* <Header /> */}
             <NewHeader />
 
             <PoweringBrands />
@@ -40,36 +39,30 @@ const Home = () => {
 
             <FivePoints />
 
-
-            {/* <Faucone4Startup /> */}
-
-            {/* <ContributeToTheSocity /> */}
-
-
             <BlueBg />
 
             <OurBrandServices />
 
             <WhiteBg />
 
-
-            {/* <CustomerSupport /> */}
-
-
-
-
-            {/* <IndustriesWeServe /> */}
-
-            {/* <Globe /> */}
-
-            {/* <Awards /> */}
-
             <Map />
 
             <Footer />
 
+            {/* ///////////////////////////////// */}
+
+
+            {/* <Header /> */}
+            {/* <Faucone4Startup /> */}
+            {/* <ContributeToTheSocity /> */}
+            {/* <CustomerSupport /> */}
+            {/* <IndustriesWeServe /> */}
+            {/* <Globe /> */}
+            {/* <Awards /> */}
 
         </>
+
+
     )
 
 }

@@ -8,7 +8,7 @@ import computer from '../../../img/computer.png'
 const ContributeToTheSocity2 = () => {
     return (
         <>
-            <p className='tw-text-[#079fce] tw-text-center tw-font-GoogleSansMedium tw-my-20 tw-text-4xl'>Our Contribution <span className='tw-font-sans tw-text-[#424242]'>to Society</span></p>
+            <p className='tw-text-[#079fce] tw-text-center tw-font-GoogleSansMedium tw-my-10 tw-mt-20 md:tw-my-20 tw-text-3xl md:tw-text-4xl'>Our Contribution <span className='tw-font-sans tw-text-[#424242]'>to Society</span></p>
             {/*             
             <div className='tw-bg-[#069fce] tw-mx-20 tw-px-28 tw-rounded-2xl tw-flex tw-items-center tw-justify-between'>
                 <p className='tw-font-medium tw-text-white tw-text-4xl tw-text-center'>WOMEN <br /><span className='tw-font-light'>EMPOWERMENT</span></p>
@@ -33,7 +33,7 @@ const ContributeToTheSocity2 = () => {
 
 
             {/* 4 box */}
-            <main className='tw-grid tw-grid-cols-2 tw-gap-5 tw-mx-5'>
+            <main className='tw-grid md:tw-grid-cols-2 tw-gap-5 tw-mx-5'>
                 <div className='tw-bg-[#F0E8FF] tw-pl-5 tw-rounded-2xl tw-flex tw-flex-col tw-items-center tw-justify-center tw-py-10'>
                     <p className='tw-font-medium tw-mt-10 tw-text-3xl tw-text-center'><span className='-tw-my-6 tw-block'>WOMEN</span> <br /><span className=' tw-font-light'>ENTREPRENURSHIP</span></p>
                     <button className='tw-mt-7  tw-text-[#0BAAD5] tw-bg-white tw-border tw-border-[#0BAAD5] tw-py-1 tw-px-4 tw-rounded-md tw-ml-3'>

@@ -9,8 +9,8 @@ import map from '../../../img/map3.png'
 const Map = () => {
     return (
         <>
-            <section className='tw-flex tw-items-center tw-justify-center tw-mt-10 tw-ml-20 tw-mr-20 tw-font-PuviMedium tw-rounded-3xl  '>
-                <img src={map} alt="" className='tw-w-[1100px] tw-p-6' />
+            <section className='tw-flex tw-items-center tw-justify-center lg:tw-mt-10 lg:tw-ml-20 lg:tw-mr-20 tw-font-PuviMedium tw-rounded-3xl  '>
+                <img src={map} alt="" className='tw-w-[1100px] lg:tw-p-6' />
             </section>
 
             {/* old code */}

@@ -147,6 +147,9 @@ const Language = () => {
         //     placeholder="Select Language"
 
         // />
+
+
+        
         <Popover content={content} placement='bottomLeft' className='tw-transition tw-duration-200' trigger={'click'}>
             <button >
                 {languageContainer.map((item) => (
@@ -156,7 +159,7 @@ const Language = () => {
                         {/* old code that is languages with flag */}
                         {/* {item.flag}
                         <p className='tw-mb-0 '>{item.name}</p> */}
-                        <p>Change Country</p>
+                        <p className='tw-text-sm md:tw-text-base'>Change Country</p>
                         <IoIosArrowDown />
 
                     </div>

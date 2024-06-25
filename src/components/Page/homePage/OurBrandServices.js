@@ -26,12 +26,12 @@ const OurBrandServices = () => {
             slidesToSlide: 4 // optional, default to 1.
         },
         laptop: {
-            breakpoint: { max: 1020, min: 751 },
+            breakpoint: { max: 1020, min: 901 },
             items: 3,
             slidesToSlide: 4 // optional, default to 1.
         },
         tablet: {
-            breakpoint: { max: 750, min: 451 },
+            breakpoint: { max: 900, min: 451 },
             items: 2,
             slidesToSlide: 3 // optional, default to 1.
         },
@@ -54,10 +54,10 @@ const OurBrandServices = () => {
 
     return (
         <>
-            <p className='tw-text-5xl tw-my-20  tw-text-center tw-text-[#1796be] tw-font-semibold '>16 Solutions <span className='tw-font-normal tw-text-4xl tw-text-gray-700'>1 Brand</span></p>
+            <p className='tw-text-3xl md:tw-text-5xl tw-my-20  tw-text-center tw-text-[#1796be] tw-font-semibold '>16 Solutions <span className='tw-font-normal tw-text-2xl md:tw-text-4xl tw-text-gray-700'>1 Brand</span></p>
 
             {/* <main className='tw-grid tw-grid-cols-4 tw-gap-x-10 tw-w-[90%] tw-mx-auto tw-mt-10 '> */}
-            <div className='tw-p-5 tw-ml-16 '>
+            <div className='lg:tw-p-5 tw-ml-10 lg:tw-ml-16 '>
                 <Carousel
                     responsive={responsive}
                     autoPlay={true}

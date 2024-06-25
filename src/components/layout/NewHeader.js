@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { RiSearchLine } from 'react-icons/ri';
 import { TbSpeakerphone } from 'react-icons/tb';
 import { Link } from 'react-router-dom';
-import digital from '../../img/digital2.png'
 import {
     Collapse,
     Dropdown,
@@ -20,6 +19,7 @@ const NewHeader = () => {
     }, [])
 
     return (
+
         <div className='tw-z-50  tw-top-0 tw-sticky tw-bg-white'>
             <nav
                 className="tw-relative tw-flex tw-items-center tw-justify-between tw-gap-x-5 tw-px-5  md:tw-px-20 tw-py-4"
@@ -29,11 +29,11 @@ const NewHeader = () => {
 
                     {/* title img */}
                     <Link to={'/'} className=' '>
-                        <img src={title} alt="" />
+                        <img src={title} alt="" className='' />
                     </Link>
 
                     {/* company, industries, solution, etc */}
-                    <div className="!tw-visible tw-hidden tw-flex-grow tw-basis-[100%] tw-items-center lg:!tw-flex lg:tw-basis-auto"
+                    <div className="!tw-visible tw-hidden tw-flex-grow tw-basis-[100%] tw-items-center lg:tw-flex lg:tw-basis-auto"
                         id="navbarSupportedContent1"
                         data-twe-collapse-item>
                         <ul className="me-auto tw-flex tw-items-center tw-mt-3 tw-flex-row" data-twe-navbar-nav-ref>
@@ -1273,7 +1273,7 @@ const NewHeader = () => {
                     <button className='tw-hidden tw-text-gray-600 lg:tw-flex tw-font-PuviMedium'>Sign in</button>
 
                     <button className='tw-hidden  tw-font-PuviMedium lg:tw-flex tw-border tw-font-medium tw-px-3 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-duration-300'>Register</button>
-                   
+
                     <div className=' lg:tw-outline-none lg:tw-py-1 lg:tw-my-1 lg:tw-px-2 tw-font-PuviMedium'>
                         <Language />
                     </div>
@@ -1281,7 +1281,6 @@ const NewHeader = () => {
 
                 </div>
             </nav>
-            {/* <div className='tw-h-1 tw-bg-[#2e93d2]'></div> */}
         </div>
     )
 }

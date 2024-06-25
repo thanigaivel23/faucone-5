@@ -19,7 +19,7 @@ const Footer = () => {
 
             <main className='tw-bg-[#f1f3f4] tw-mt-20 tw-pt-16'>
                 {/* follow us */}
-                <section className='tw-flex tw-items-center tw-gap-x-10 tw-mx-40 tw-border-b-2 tw-pb-5 tw-border-[#e0e0e0]'>
+                <section className='tw-flex tw-items-center tw-gap-x-10 md:tw-mx-40 tw-border-b-2 tw-pb-5 tw-border-[#e0e0e0]'>
                     <p className='tw-font-GoogleSansMedium tw-font-medium tw-text-gray-700 tw-text-2xl tw-tracking-wide'>Follow Us </p>
                     <div className='tw-flex tw-items-center tw-gap-x-7'>
 
